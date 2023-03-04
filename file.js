@@ -7,7 +7,7 @@ let dateAndTime = date.toLocaleString();
 console.log(dateAndTime);
 
 
-fs.writeFile("./dateAndTime.html", dateAndTime, (arr) => {
+fs.writeFile("./currentdate-Time.txt", dateAndTime, (arr) => {
     console.log(dateAndTime);
 })
 
